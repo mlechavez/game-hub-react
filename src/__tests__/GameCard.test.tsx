@@ -11,6 +11,7 @@ describe("GameCard", () => {
       name: "Grand Theft Auto V",
       background_image: "",
       parent_platforms: [],
+      metacritic: 0,
     };
     render(<GameCard game={game} />);
   });
