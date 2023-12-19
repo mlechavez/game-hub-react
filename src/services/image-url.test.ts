@@ -1,9 +1,10 @@
 import getCroppedImageUrl from "./image-url";
+import noImage from "../assets/no-image.webp";
 
 describe("image-url", () => {
   it("should render a default image when image is not available", () => {
     const url = "";
-    const testValue = "../assets/no-image.webp";
+    const testValue = noImage;
 
     const croppedImageUrl = getCroppedImageUrl(url);
 
