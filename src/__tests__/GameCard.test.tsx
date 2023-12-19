@@ -12,6 +12,7 @@ describe("GameCard", () => {
       background_image: "",
       parent_platforms: [],
       metacritic: 0,
+      rating_top: 0,
     };
     render(<GameCard game={game} />);
   });

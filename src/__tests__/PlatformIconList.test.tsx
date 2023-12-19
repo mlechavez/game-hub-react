@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import { Platform } from "../hooks/useGames";
 import PlatformIconList from "../components/PlatformIconList";
+import { Platform } from "../hooks/usePlatforms";
 
 describe("PlatformIconList", () => {
   let platforms: Platform[];
